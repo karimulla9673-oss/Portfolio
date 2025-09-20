@@ -132,7 +132,7 @@ const Portfolio = () => {
           </div>
           
           <div className="about-content">
-            <h3 className="about-heading"> I am Karimulla</h3>
+            <h3 className="about-heading">Hello! I am Shaik Karimulla</h3>
             <p className="about-text">
               I am an aspiring Full-stack developer with hands-on experience in creating responsive web applications. 
               My expertise lies in React.js and modern web technologies, with a strong foundation in integrating 
