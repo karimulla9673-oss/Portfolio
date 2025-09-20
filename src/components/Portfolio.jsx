@@ -78,7 +78,7 @@ const Portfolio = () => {
         {/* Profile Image Container */}
         <div className="profile-image-container">
           <img 
-            src="https://i.ibb.co/Cs9Rc4rV/Photo.jpg"  
+            src="/Photo.jpg" 
             alt="Shaik Karimulla"
             className="profile-image"
             onError={(e) => {
