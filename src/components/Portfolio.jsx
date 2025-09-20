@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Github, Linkedin, Mail, Phone, ExternalLink, Code, User, Briefcase, GraduationCap, ChevronDown, Home, FileText } from 'lucide-react';
 import './Portfolio.css';
-
+import profilePic from "../assets/Photo.jpg"; 
 const Portfolio = () => {
   const [currentPage, setCurrentPage] = useState('home');
 
@@ -78,7 +78,7 @@ const Portfolio = () => {
         {/* Profile Image Container */}
         <div className="profile-image-container">
           <img 
-            src="/Photo.jpg" 
+            src={profilePic} 
             alt="Shaik Karimulla"
             className="profile-image"
             onError={(e) => {
@@ -128,13 +128,13 @@ const Portfolio = () => {
           <div className="about-card">
             <User size={80} />
             <h3>Software Developer</h3>
-            <p>Passionate about clean code and user experience</p>
+            <p>I am a passionate Full-Stack Developer with expertise in modern web technologies.</p>
           </div>
           
           <div className="about-content">
-            <h3 className="about-heading">Hello! I'm Karimulla</h3>
+            <h3 className="about-heading"> I am Karimulla</h3>
             <p className="about-text">
-              I'm an aspiring software developer with hands-on experience in creating responsive web applications. 
+              I am an aspiring Full-stack developer with hands-on experience in creating responsive web applications. 
               My expertise lies in React.js and modern web technologies, with a strong foundation in integrating 
               RESTful APIs and collaborative development using Git.
             </p>
