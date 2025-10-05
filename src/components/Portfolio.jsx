@@ -11,25 +11,25 @@ const Portfolio = () => {
 
   const projects = [
     {
-      title: "WeatherNow",
-      tech: "React.js, CSS, OpenWeatherMap API",
-      description: "Responsive React.js application that fetches real-time weather data with live updates for temperature, humidity, and wind conditions. Features location-based search functionality.",
-      link: "https://weather-now1-0i9r.onrender.com",
-      highlights: ["Real-time weather data", "State management with Hooks", "Location-based search"]
+      title: "MERN Stack Blog Platform ",
+      tech: "MongoDB, Express.js, React.js, Node.js",
+      description: "Built a full-stack blogging application using MongoDB, Express.js, React.js, and Node.js, with scalable project architecture and modular codebase.",
+      link: "https://mern-blog-1-bkmw.onrender.com",
+      highlights: ["Authentication", "Authorization", "Optimization"]
     },
     {
-      title: "Crypto Price Tracker",
-      tech: "React.js, CSS, Coin API",
-      description: "Real-time cryptocurrency price tracking app with interactive search and display interface for efficient price information discovery.",
-      link: "https://cryptoapplive.onrender.com",
-      highlights: ["Live cryptocurrency data", "Interactive search interface", "Dynamic UI updates"]
+      title: "Employee Management App ",
+      tech: "MERN Stack, Cloudinary, React Router, REST API",
+      description: "Developed a full-stack employee management system using MongoDB, Express.js, React.js, and Node.js, enabling secure data storage and smooth CRUD operations.",
+      link: "https://employee-management-app-2.onrender.com",
+      highlights: ["RESTful-APIs", "Cloudinary", "CRUD"]
     },
     {
-      title: "E-Commerce Platform",
-      tech: "React.js, React Router DOM, CSS",
-      description: "Responsive e-commerce application with smooth product management, dynamic routing for product details, and seamless navigation between pages.",
-      link: "https://react-e-martapp.onrender.com",
-      highlights: ["Product management", "Dynamic routing", "Responsive design"]
+      title: "Realtime Chat Application ",
+      tech: "React.js, Node.js, Socket.io, MongoDB",
+      description: "Built a realtime chat platform using React.js, Node.js, and Socket.io, enabling instant bi-directional communication between multiple users.",
+      link: "https://realtime-chat-app-2-8dei.onrender.com",
+      highlights: ["Realtime", "Socket.io", "Persistence"]
     }
   ];
 
